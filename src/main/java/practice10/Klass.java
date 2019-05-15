@@ -23,7 +23,7 @@ public class Klass {
 
     public void assignLeader(Student student) {
         if (student.getKlass() == null || student.getKlass().number != this.number){
-            System.out.println("It is not one of us.");
+            System.out.print("It is not one of us.");
         }else{
             this.leader = student;
         }

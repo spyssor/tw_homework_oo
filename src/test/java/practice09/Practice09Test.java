@@ -55,7 +55,7 @@ public class Practice09Test {
 
         klass.assignLeader(jerry);
 
-        assertThat(systemOut().trim()).isEqualTo("It is not one of us.\n".trim());
+        assertThat(systemOut()).isEqualTo("It is not one of us.");
         assertThat(klass.getLeader()).isNotEqualTo(jerry);
     }
 
